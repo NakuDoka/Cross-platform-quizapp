@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             NavigationPage.HasNavigationBar="false"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:local="clr-namespace:quizApp"
+             mc:Ignorable="d"
+             
+             x:Class="quizApp.quizpage">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <local:SelectedToColorConverter x:Key="cnvInvert"></local:SelectedToColorConverter>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout 
+                x:Name="AppBar"
+                HeightRequest="70"
+                   WidthRequest="100"
+                   HorizontalOptions="FillAndExpand"
+                   VerticalOptions="Start"
+                   
+                   Padding="0, 20, 0, 0">
+                <Label x:Name="TitleText"
+               FontSize="32"
+               TextColor="White"
+               FontFamily="DMSans-Medium"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center" />
+            </StackLayout>
+            <StackLayout Padding="30,10,30,20">
+                <Label Text="{Binding TitleText}"
+               TextColor="#FABB05"
+               FontSize="18"
+               FontFamily="DMSans-Medium" />
+                <Label Text="{Binding CurrentQuestionText}"
+               TextColor="#213057"
+               FontSize="22"
+               FontFamily="DMSans-Medium" />
+            </StackLayout>
+            <StackLayout >
+                <ListView x:Name="listView"  ItemsSource="{Binding CurrentOptionsClass}" HasUnevenRows="True" SeparatorVisibility="None" SelectionMode="None" >        
+                    <ListView.ItemTemplate >
+                        <DataTemplate >
+                            <ViewCell >
+                                <StackLayout Padding="30,0,30,0" >
+                                    <Frame
+                                        
+                                        VerticalOptions="Center"
+                                        Margin="0,3,0,12"
+                                        HorizontalOptions="FillAndExpand"
+                                        HeightRequest="35"
+                                        CornerRadius="5"  
+                                        BackgroundColor="{Binding ButtonColor}"
+                                        >
+                                        <Frame.GestureRecognizers>
+                                            <TapGestureRecognizer Command="{Binding Path=ChooseOptionCommand, Source={RelativeSource AncestorType={x:Type local:QuizPageModel}}}" CommandParameter="{Binding Index}" />
+                                        </Frame.GestureRecognizers>
+                                        <Label Text="{Binding Option}"
+                                               FontFamily="DMSans-Regular"
+                                           FontSize="20"
+                                           VerticalOptions="Center"
+                                           HorizontalOptions="Center"
+                                            TextColor="{Binding TextColor}">
+                                        </Label>
+                                    </Frame>
+                                </StackLayout>
+                            </ViewCell> 
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+            <StackLayout Padding="30,0,30,30">
+                <Button Text="{Binding CurrentButtonText}"
+                Command="{Binding NextQuestion}"
+                BackgroundColor="#4285F4"
+                TextColor="White"
+                HeightRequest="80"
+                CornerRadius="5"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="Center"
+                FontSize="26"
+                        TextTransform="None"
+                FontFamily="DMSans-Medium" />
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

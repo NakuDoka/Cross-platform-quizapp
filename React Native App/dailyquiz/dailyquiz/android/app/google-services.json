@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "31890692171",
+    "project_id": "tnd-blog-dailyquizapp",
+    "storage_bucket": "tnd-blog-dailyquizapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:31890692171:android:b4c2e789b74ca2d43095ce",
+        "android_client_info": {
+          "package_name": "com.example.dailyquiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "31890692171-j59n2gomashke2pja5ig87aj8ud4hv3e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrj3JrHEb9a_ak53t7ayzzPr4F12VSKAs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "31890692171-j59n2gomashke2pja5ig87aj8ud4hv3e.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "31890692171-dkrem7iv210mb6momk4mofmkkuo2v9as.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.dailyquiz"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

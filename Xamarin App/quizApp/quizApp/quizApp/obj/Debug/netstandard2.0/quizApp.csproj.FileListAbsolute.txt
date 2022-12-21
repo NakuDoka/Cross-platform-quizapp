@@ -1,0 +1,17 @@
+C:\Users\timte\Code\Bigger Projects\1 app 5 ways\Xamarin\quizApp\quizApp\quizApp\bin\Debug\netstandard2.0\quizApp.deps.json
+C:\Users\timte\Code\Bigger Projects\1 app 5 ways\Xamarin\quizApp\quizApp\quizApp\bin\Debug\netstandard2.0\quizApp.dll
+C:\Users\timte\Code\Bigger Projects\1 app 5 ways\Xamarin\quizApp\quizApp\quizApp\bin\Debug\netstandard2.0\quizApp.pdb
+C:\Users\timte\Code\Bigger Projects\1 app 5 ways\Xamarin\quizApp\quizApp\quizApp\obj\Debug\netstandard2.0\quizApp.csproj.AssemblyReference.cache
+C:\Users\timte\Code\Bigger Projects\1 app 5 ways\Xamarin\quizApp\quizApp\quizApp\obj\Debug\netstandard2.0\quizApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\timte\Code\Bigger Projects\1 app 5 ways\Xamarin\quizApp\quizApp\quizApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\timte\Code\Bigger Projects\1 app 5 ways\Xamarin\quizApp\quizApp\quizApp\obj\Debug\netstandard2.0\finalpage.xaml.g.cs
+C:\Users\timte\Code\Bigger Projects\1 app 5 ways\Xamarin\quizApp\quizApp\quizApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\timte\Code\Bigger Projects\1 app 5 ways\Xamarin\quizApp\quizApp\quizApp\obj\Debug\netstandard2.0\quizpage.xaml.g.cs
+C:\Users\timte\Code\Bigger Projects\1 app 5 ways\Xamarin\quizApp\quizApp\quizApp\obj\Debug\netstandard2.0\quizApp.AssemblyInfoInputs.cache
+C:\Users\timte\Code\Bigger Projects\1 app 5 ways\Xamarin\quizApp\quizApp\quizApp\obj\Debug\netstandard2.0\quizApp.AssemblyInfo.cs
+C:\Users\timte\Code\Bigger Projects\1 app 5 ways\Xamarin\quizApp\quizApp\quizApp\obj\Debug\netstandard2.0\quizApp.csproj.CoreCompileInputs.cache
+C:\Users\timte\Code\Bigger Projects\1 app 5 ways\Xamarin\quizApp\quizApp\quizApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\timte\Code\Bigger Projects\1 app 5 ways\Xamarin\quizApp\quizApp\quizApp\obj\Debug\netstandard2.0\quizApp.dll
+C:\Users\timte\Code\Bigger Projects\1 app 5 ways\Xamarin\quizApp\quizApp\quizApp\obj\Debug\netstandard2.0\refint\quizApp.dll
+C:\Users\timte\Code\Bigger Projects\1 app 5 ways\Xamarin\quizApp\quizApp\quizApp\obj\Debug\netstandard2.0\quizApp.pdb
+C:\Users\timte\Code\Bigger Projects\1 app 5 ways\Xamarin\quizApp\quizApp\quizApp\obj\Debug\netstandard2.0\ref\quizApp.dll
