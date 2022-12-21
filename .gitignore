@@ -109,5 +109,5 @@ buck-out/
 /vendor/bundle/
 
 # Google service
-GoogleService-Info.plist
+/GoogleService-Info.plist
 
