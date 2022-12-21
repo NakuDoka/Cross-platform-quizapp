@@ -107,5 +107,7 @@ buck-out/
 # Ruby / CocoaPods
 /ios/Pods/
 /vendor/bundle/
+
+# Google service
 GoogleService-Info.plist
 
